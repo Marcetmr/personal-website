@@ -1,0 +1,44 @@
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    'screen screen screen screen'
+    '. . . .'
+    '. . . .'
+    '. . . .'
+    '. . . .';
+    text-align: center;
+    gap: 10px;
+    background-color: bisque;
+    padding: 15px;
+    border-radius: 5px;
+    height: 250px; 
+}
+
+.screen{
+    grid-area: screen;
+    background-color: rgb(241, 155, 126);
+    border-radius: 5px;
+}
+
+.grid-item{
+    background-color: pink;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+body{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkkhaki;
+}

@@ -1,0 +1,120 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Marcela Martínez</title>
+    <link rel="stylesheet" href="Styles/styles-hojadevida.css">
+</head>
+<body>
+<div class="grid-container">
+    <header>
+      <ul class="navbar">
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#experiencia">Experiencia laboral</a></li>
+        <li><a href="#habilidades">Habilidades técnicas</a></li>
+        <li><a href="#certificaciones">Certificaciones</a></li>
+        <li><a href="#proyectos">Mis proyectos</a></li>
+        <li><a href="#form">Contáctame</a></li>
+      </ul>  
+    </header>
+    <section class="presentation-card">
+        <h1>Marcela Tatiana Martínez Rojas</h1>
+        <p>Full-Stack Web Developer | Desarrolladora Web Full-Stack</p>
+    </section>
+        <aside>
+            <img class="profilepic" src="Assets/imagenes/MM-propic.png" alt="Fotografía de perfil">
+            <h3>Marcela T. Martínez</h3>
+            <p>San Pedro Sula, Honduras</p>
+            <p>marce.t1994@gmail.com</p>
+            <p>+504 9619-1232</p>
+            <div class="logo-container">
+                <a href="https://github.com/Marcetmr" target="_blank"><img class="logo" src="Assets/imagenes/github.png" alt="Enlace para GitHub"></a>
+                <a href="https://www.linkedin.com" target="_blank"><img class="logo" src="Assets/imagenes/linkedin.png" alt="Enlace para LinkedIn"></a>
+                <a href="https://www.instagram.com/marcetmr/" target="_blank"><img class="logo" src="Assets/imagenes/instagram.png" alt="Enlace para Instagram"></a>
+            </div>
+            <div class="aside-buttons">
+                <button id="contact-me">Contáctame</button>
+                <button id="ver-proyectos-anteriores">Ver Proyectos Anteriores</button>
+                <button id="califica-mi-CV">Califica mi Hoja de Vida</button>
+            </div>
+        </aside>
+    </div>       
+</div>
+<section id="educacion" class="educación">
+    <h2 class="title">Educación</h2>
+        <ul>
+            <li>2024: Full Stack Web Development Bootcamp | Ada School & ProTalento</li>
+            <li>2019: Licenciatura en Derecho | Universidad Nacional Autónoma de Honduras en el Valle de Sula</li>
+            <li>2012: Bachillerato en Ciencias y Letras | Escuela Bilingüe Academia Americana</li>
+        </ul>
+</section>
+<section id="experiencia" class="experiencia">
+    <h2 class="title">Experiencia laboral</h2>
+    <button class="main-buttons" id="add-experience">Añadir Experiencia</button>
+        <ul id="experience-list">
+                <li>2023: Asistente Legal</li>
+                <li>2019-2023: Asociada de Protección Comunitaria</li>
+                <li>2018-2019: Pasante de Protección</li>
+        </ul>
+</section>
+<section id="habilidades" class="habilidades">
+    <h2 class="title">Habilidades Técnicas</h2>
+    <button class="main-buttons" id="add-skill">Añadir Habilidad</button>
+        <table id="skill-list">
+            <tr>
+                <td>HTML 5</td>
+                <td><progress value="60" max="100"></progress></td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td><progress value="50" max="100"></progress></td>
+            </tr>
+            <tr>
+                <td>Javascript</td>
+                <td><progress value="30" max="100"></progress></td>
+            </tr>
+            <tr>
+                <td>Microsoft Office 356</td>
+                <td><progress value="100" max="100"></progress></td>
+            </tr>
+            <tr>
+                <td>Inglés</td>
+                <td> <progress value="100" max="100"></progress></td>
+            </tr>
+        </table>
+</section>
+<section id="certificaciones" class="certificaciones">
+    <h2 class="title">Certificaciones </h2>
+    <ul id="listaCertificaciones">
+    </ul>
+</section>
+<section id="proyectos" class="proyectos">
+    <h2 class="title">Mis proyectos</h2>
+    <div class="mis-proyectos">
+        <div>
+            <a class="link-proyecto" href="detalle-proyecto.html">Detalle del Proyecto</a>
+        </div>
+        <div>
+            <a class="link-proyecto" href="index-calculator.html">Diseño de Calculadora</a>
+        </div>
+    </div>
+</section>
+<section id="form" class="form">
+    <h2 class="title">Contáctame</h2>
+    <p>Si deseas que te contacte, por favor llena el siguiente formulario con tu información y te contactaré en la brevedad posible.</p>
+    <form action="#" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="user_email">
+    
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="user_message"></textarea>
+    
+        <input type="submit" value="Contactar" class="contactar-button">
+    </form>
+</section>
+<script src="Scripts/script.js"></script>
+</body>
+</html>

@@ -117,6 +117,10 @@ aside {
     font-family: var(--main-font);
 }
 
+.main-buttons a {
+    color: var(--paragraph-txt-color);
+}
+
 .main-buttons:hover {
     background-color: #95edd7;
 }
@@ -144,9 +148,12 @@ progress {
 }
 
 .mis-proyectos {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    display: flex;
+    justify-content:space-between;
+}
+
+#descripcion-proyectos {
+    width: 50rem;
 }
 
 .link-proyecto {

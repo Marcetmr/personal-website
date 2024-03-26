@@ -51,7 +51,7 @@ document.getElementById('contact-me').addEventListener('click', function() {
 
 // Bucle para agregar certificaciones
 
-const certificaciones = ['Fundamentos de HTML5', 'Introducción a CSS', 'Algoritmos de Javascript'];
+const certificaciones = ['Full-Stack Web Development Bootcamp - Ada School', 'SEO & Web Positioning - Udemy', 'Javascript Algorithms & Data Structure - FreeCodeCamp'];
 const mostrarCertificaciones = () => {
     let ul = document.getElementById('listaCertificaciones');
 
@@ -77,14 +77,6 @@ document.getElementById('ver-proyectos-anteriores').addEventListener('click', fu
     }
     alert(mensaje);
 })
-
-// Alerta para saludo personalizado
-
-const saludoPersonalizado = () => {
-    alert('Gracias por visitar mi Hoja de Vida')
-}
-
-saludoPersonalizado()
 
 // Botón para calificar mi hoja de vida
 
